@@ -21,6 +21,7 @@ public class DriverFactory {
             capabilities.setCapability("udid","emulator-5554");
             capabilities.setCapability("appPackage","com.hmh.api");
             capabilities.setCapability("appActivity","com.hmh.api.APIDemos");
+            capabilities.setCapability("noReset","true");
         } else if (browser.equals("IOS")) {
             capabilities.setCapability("platformName","IOS");
             capabilities.setCapability("udid","");
